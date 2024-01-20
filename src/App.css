@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
+:root {
+  --dark-background: #1b1d1f;
+  --darker-background: #111315;
+  --light-gray: #6f757c;
+  --light-green: #bee3cc;
+  --off-white: #fef7ee;
+  --orange: #f6c768;
+  --red: #ed735d;
+}
+
 *,
 *::before,
 *::after {
@@ -14,4 +24,8 @@
 body {
   min-height: 100vh;
   font-family: 'DM Sans', sans-serif;
+  background: var(--dark-background);
+  background-image: url('src/assets/bg-cafe.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
