@@ -8,7 +8,7 @@ import CoffeeCard from './components/CoffeeCard'
 
 const App = () => {
   const { data: coffees, isError, error, isLoading } = useCoffees()
-  const [activeButton, setActiveButton] = useState<string>('')
+  const [activeButton, setActiveButton] = useState<string>('allProducts')
   const [filtered, setFiltered] = useState(false)
 
   const filteredData = coffees?.filter((coffee) => coffee.available)
