@@ -18,7 +18,7 @@ export const useCoffees = () =>
     queryFn: () =>
       axios
         .get<Coffee[]>(
-          'https://raw.githubusercontent.com/devchallenges-io/web-poject-ideas/main/front-end-projects/data/simple-coffee-listing-data.json'
+          'https://raw.githubusercontent.com/devchallenges-io/web-project-ideas/main/front-end-projects/data/simple-coffee-listing-data.json'
         )
         .then((response) => response.data)
   })
