@@ -52,6 +52,7 @@ body {
   background-position: right top;
   padding: 2em;
   margin-top: 1em;
+  max-width: 70%;
 }
 
 .introduction-title {
@@ -62,6 +63,26 @@ body {
 
 .introduction-text {
   color: var(--light-gray);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.btn {
+  border: 0;
+  background: 0;
+  color: var(--off-white);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.8em 1.2em;
+  border-radius: 6px;
+}
+
+.btn-active {
+  background-color: var(--light-gray);
 }
 
 .coffee-list {
