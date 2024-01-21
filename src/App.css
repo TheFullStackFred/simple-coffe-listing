@@ -66,9 +66,8 @@ body {
 }
 
 .btn-container {
-  display: flex;
-  justify-content: space-around;
   margin-bottom: 2em;
+  gap: 0.5em;
 }
 
 .btn {
@@ -81,8 +80,26 @@ body {
   border-radius: 6px;
 }
 
+.btn:hover {
+  background-color: var(--darker-background);
+}
+
 .btn-active {
   background-color: var(--light-gray);
+}
+
+.loading {
+  color: #f6c768;
+}
+
+.error {
+  color: #ed735d;
+}
+
+.loading,
+.error {
+  font-size: 3rem;
+  text-align: center;
 }
 
 .coffee-list {
@@ -135,6 +152,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 0.875rem;
+  gap: 0.3em;
 }
 
 .coffee-rating-value {
