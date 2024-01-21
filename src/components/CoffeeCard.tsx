@@ -1,6 +1,6 @@
 import { Coffee } from '../hooks/useCoffees'
-import starFill from '../assets/Star_fill.svg'
-import star from '../assets/Star.svg'
+import starFill from '/assets/Star_fill.svg'
+import star from '/assets/Star.svg'
 
 const CoffeeCard = ({
   name,
