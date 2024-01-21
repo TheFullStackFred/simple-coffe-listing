@@ -25,7 +25,7 @@ body {
   height: 100vh;
   font-family: 'DM Sans', sans-serif;
   background: var(--darker-background);
-  background-image: url('assets/bg-cafe.jpg');
+  background-image: url('/assets/bg-cafe.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
